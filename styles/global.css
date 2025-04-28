@@ -1,10 +1,58 @@
 /* remove default browser spacing*/
-* {
-  margin: 0px;
-  padding: 0px;
-}
 
 /*title text style*/
 /* the font-family 'JetBrains Mono', has been linked
  * and is available for your use
  * */
+* {
+  margin: 0px;
+  /* padding: 5px 10px 0px 10px; */
+}
+
+.profile-image-container {
+  position: relative;
+}
+
+.container {
+  padding: 0 10px;
+}
+
+.profile-image {
+  position: absolute;
+  left: 11px;
+  top: 0;
+}
+
+.profile-pic {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.header-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.education {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#header-view-1 {
+  margin: 40px 0;
+}
+
+.skill {
+  font-weight: bold;
+}
+
+.skill-interest {
+  margin-bottom: 20px;
+}
+
+.title {
+  font-weight: bold;
+}
